@@ -6,3 +6,9 @@ class Validator:
         for user_input in input_list:
             if self.is_valid_positive_integer(user_input):
                 self.valid_integers.append(int(user_input))
+
+
+
+    def check_int(self, value):
+        try:
+            num = int(value)
